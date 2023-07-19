@@ -46,8 +46,7 @@ const Fivestar = (props) => {
   return (
     <>
     <div className="five-star">
-      <p>Rank :</p>
-      {rank + 1}
+      <p className="rank-txt">Rank : {rank + 1}</p>
       {fiveStar}
     </div>
     </>
